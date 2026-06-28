@@ -1,0 +1,64 @@
+should saying no to "load previous session" make a temporary new one? 
+or should it delete the old one first and start fresh right away?
+
+maybe should make new temp one, until SAVED, keep the old one
+
+nested if for error loading transaction log?
+If transaction log DNE or is empty, should I create a new one without question 
+or stop the user and ask if they would like to proceed with a new transation list?
+
+
+made a start
+
+add "no"
+"starting new session."
+keep old one so ake new temp transaction log?
+
+
+so the idea is that all the handing for the printing 
+of transatcion log and its errors will 
+go to the PrintTransactionLog func 
+then ANOTHER for making a new transaction log if they say no
+
+
+need to format it like
+
+INC|Freelance Project|250.00
+EXP|Phone Bill|-45.00
+INC|Salary|1200.00
+EXP|Internet Bill|-50.00
+EXP|Rent|-800.00
+EXP|Groceries|-150.00
+EXP|Car Payment|-400.00
+EXP|Dining Out|-100.00
+
+in main, I want to call a do-while
+so that we can just link each control in main
+After the intro though, maybe we make that into a different file.
+
+features needed
+intro, save/ no save
+we make a seperate 
+
+interpreter to make the expenses and such into a struct array to work on it easier
+then just put it back into the transaction logs.txt format
+
+but then I need another parser-interpreter for the print command
+
+so maybe start with the struct and linked list, we worry about the printing for the interpreting later.
+just make a program that is a linked list that we are able to append numbers to along with a total
+    then we add the struct of INC or EXP
+    then the names of it on the side, not apart of calc.
+
+
+
+OK friday update,
+i worked on the core structure of the loading transactions, 
+
+we are now working on print, it just needs to use a certain way to print the stuff
+using the checkers.
+
+update sunday
+too much idek and things kept breaking oml
+
+

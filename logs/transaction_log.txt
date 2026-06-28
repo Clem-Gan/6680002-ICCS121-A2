@@ -1,0 +1,12 @@
+# Format: TYPE|DESCRIPTION|AMOUNT
+# TYPE: INC (Income) or EXP (Expense)
+# AMOUNT: Positive decimal number
+
+INC|Freelance Project|250.00
+EXP|Phone Bill|45.00
+INC|Salary|1200.00
+EXP|Internet Bill|50.00
+EXP|Rent|800.00
+EXP|Groceries|150.00
+EXP|Car Payment|400.00
+EXP|oh no|40000.00
